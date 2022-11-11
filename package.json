@@ -2,21 +2,21 @@
   "dependencies": {
     "eris": "^0.17.1"
   },
-  "name": "stupid-discord-badge",
+  "name": "traum-made-badge",
   "version": "1.0.0",
-  "description": "Discord can eat my ass",
+  "description": "Made a God",
   "main": "index.js",
   "scripts": {
     "run": "npm i && node ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/User9684/stupid-discord-badge.git"
+    "url": "git+https://github.com/User9684/traum-made-badge.git"
   },
-  "author": "user#6969",
+  "author": "Philipp Traum#6174",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/User9684/stupid-discord-badge/issues"
+    "url": "https://github.com/User9684/traum-made-badge/issues"
   },
-  "homepage": "https://github.com/User9684/stupid-discord-badge#readme"
+  "homepage": "https://github.com/User9684/traum-made-badge#readme"
 }
