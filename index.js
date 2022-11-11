@@ -1,29 +1,29 @@
 const { CommandClient } = require('eris')
 
-// Stupid ass bot creation
+// Traum Made
 async function init(token) {
-    const stupidAssBot = new CommandClient(`Bot ${token}`, { intents: ['guilds'], maxShards: 'auto',restMode: true })
-    // Register the stupid ass command
-    stupidAssBot.on('ready', async () => {
-        await stupidAssBot.bulkEditCommands([{
-            name: 'lol',
-            description: 'I hate discord so much you cannot believe it',
+    const TraumMade = new CommandClient(`Bot ${token}`, { intents: ['guilds'], maxShards: 'auto',restMode: true })
+    // Traum Mands
+    TraumMadeBot.on('ready', async () => {
+        await TraumMadeBot.bulkEditCommands([{
+            name: 'Traum',
+            description: 'Trying to test somethin',
             type: 1,
         }])
-        console.log(`Paste the URL below into your browser to invite your bot!\nhttps://discord.com/oauth2/authorize?client_id=${stupidAssBot.user.id}&scope=applications.commands%20bot&permissions=3072`)
+        console.log(`Paste the URL below into your browser to invite your bot!\nhttps://discord.com/oauth2/authorize?client_id=${TraumMadeBot.user.id}&scope=applications.commands%20bot&permissions=3072`)
     })
-    // Stupid ass interaction creation event
-    stupidAssBot.on('interactionCreate', async (interaction) => {
-        if (interaction?.data?.name === 'lol') {
+    // Traum made interaction creation event
+    TraumMadeBot.on('interactionCreate', async (interaction) => {
+        if (interaction?.data?.name === 'Traum') {
             await interaction.createMessage({
-                content: 'According to all known laws of aviation, there is no way a bee should be able to fly. Its wings are too small to get its fat little body off the ground. The bee, of course, flies anyway, because bees don\'t care what humans think is impossible.'
+                content: 'Os humanos são criações feitas por algo maior assim como os computadores, que foram feitos por humanos. A semelhança entre eles é que podem facilmente serem configurados para agir de acordo com os nossos gostos, e a diferença é que seres humanos são patéticamente inferiores e teimosos.'
             })
-            console.log('Self destructing...')
+            console.log('Ideologias Divinas.')
             process.exit(0)
         }
     })
-    stupidAssBot.connect();
+    TraumMadeBot.connect();
 }
 
-const tokenFromStupidCommand = process.argv[2]
-init(tokenFromStupidCommand);a
+const tokenFromTraum = process.argv[2]
+init(tokenFromTraum);
